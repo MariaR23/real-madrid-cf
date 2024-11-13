@@ -1,0 +1,65 @@
+baseURL: /
+languageCode: en-us
+theme: raditian-free-hugo-theme-data-science
+params:
+  footer:
+    copyright: © Matt Dancho. All rights reserved.
+    site_logo:
+      _2x: img/general/business-science-logo.png
+      alt: Design & Code - Business Science
+      x: img/general/business-science-logo.png
+  googleAnalyticsID: ''
+  logo:
+    text1: Real Madrid
+    text2: 
+  plugins:
+    css:
+      - URL: css/main.css
+      - URL: css/rad-icons.css
+      - URL: css/custom.css
+    js:
+      - URL: js/rad-animations.js
+      - URL: js/sticky-header.js
+      - URL: js/library/fontfaceobserver.js
+  sections:
+    - showcase
+    - about
+    - client-and-work
+    - experience
+    - education
+    - testimonial
+    - contact
+    - newsletter
+menu:
+  footer:
+    - URL: '#about'
+      name: Historia
+      weight: 2
+    - URL: '#portfolio'
+      name: Plantilla y Estadio
+      weight: 3
+    - URL: '#experience'
+      name: Palmarés y tradición
+      weight: 4
+    - URL: '#testimonial'
+      name: Leyendas
+      weight: 5
+    - URL: '#contact'
+      name: Contacto
+      weight: 6
+  header:
+    - URL: '#about'
+      name: Historia
+      weight: 2
+    - URL: '#portfolio'
+      name: Plantilla y Estadio
+      weight: 3
+    - URL: '#experience'
+      name: Palmarés y Tradición
+      weight: 4
+    - URL: '#testimonial'
+      name: Leyendas
+      weight: 5
+    - URL: '#contact'
+      name: Contacto
+      weight: 6
